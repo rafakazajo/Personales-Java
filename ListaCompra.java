@@ -16,7 +16,7 @@ public class ListaCompra {
             ultimoNum++;
             if (product.equalsIgnoreCase("fin")) { //Esto es para que ignore las mayusculas y solo interprete lo que ponen en pantalla
                 ultimoNum--;
-                break;
+                break; //Esto es para terminar el bucle
             }
         }
         int orden;
